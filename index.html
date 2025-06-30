@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorial: GitHub Pages</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚀 Deploy de Site Estático com GitHub Pages</h1>
+    <p>Aprenda a publicar seu site gratuitamente usando o GitHub.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>📁 Passo 1: Estruture seu projeto</h2>
+      <p>Crie seus arquivos HTML, CSS e JS. Organize em pastas como <code>/assets/css</code>, <code>/assets/js</code> e <code>/assets/img</code>.</p>
+    </section>
+
+    <section>
+      <h2>🔧 Passo 2: Suba para o GitHub</h2>
+      <ol>
+        <li>Crie um repositório no GitHub.</li>
+        <li>Use os comandos Git para subir o projeto:
+          <pre>
+git init
+git add .
+git commit -m "Deploy inicial" (Sempre importante dar uma boa descrição do que você está adicionando)
+git branch -M main
+git remote add origin https://github.com/seu-usuario/seu-repo.git (Lembre-se de trocar pela URL do seu repositório)
+git push -u origin main
+          </pre>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>🌐 Passo 3: Ative o GitHub Pages</h2>
+      <p>Vá em <strong>Settings > Pages</strong> no seu repositório.</p>
+      <p>Selecione a branch <code>main</code> e o diretório <code>/root</code>.</p>
+      <p>Após salvar, seu site estará disponível em:</p>
+      <code>https://seu-usuario.github.io/seu-repo</code> (Lembre-se de trocar pela URL do seu repositório/site)
+    </section>
+
+    <section>
+      <h2>💡 Exemplo: Sua Tela no GitHub ficará assim com seu projeto</h2>
+      <p>Após o Deploy seu GitHub ficará assim:</p>
+      <img src="assets/img/exemplo.png" alt="Exemplo de tela do GitHub" />
+    </section>
+  </main>
+
+  <footer>
+    <p>📚 Tutorial criado para a Prova Final - Univassouras</p>
+    <p>João Marcelo Viana Vieira dos Santos - 202421629</p>
+  </footer>
+
+  <button id="topBtn">🔝 Voltar ao topo</button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
